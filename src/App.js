@@ -1,9 +1,12 @@
 import React from "react"
-
+import Nav from "./components/Navbar"
+import Meme from "./components/Meme"
+ 
 function App() {
   return (
     <div className="App">
-      <h1>hellow</h1>
+      <Nav/>
+      <Meme/>
     </div>
   );
 }
